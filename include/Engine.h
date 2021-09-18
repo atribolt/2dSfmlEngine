@@ -15,6 +15,8 @@ public:
   int framerate() const;
   void framerate(int fps);
   
+  bool isStoped() const;
+  
 protected:
   virtual void work(Duration dt) = 0;
   

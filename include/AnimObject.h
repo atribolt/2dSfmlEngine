@@ -20,7 +20,7 @@ public:
 public:
   virtual void update(Duration const& dt) = 0;
   
-private:
+protected:
   void setState(AnimationState state);
   
 private:

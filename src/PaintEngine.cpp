@@ -9,6 +9,10 @@ PaintEngine::PaintEngine(sf::RenderWindow* window)
 {
 }
 
+void PaintEngine::setRenderState(sf::RenderStates s) {
+  _state = s;
+}
+
 void PaintEngine::work(Duration dt)
 {
   for (value_type iter = this->begin(); iter != this->end(); ++iter) {

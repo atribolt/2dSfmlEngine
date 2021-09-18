@@ -13,7 +13,12 @@ namespace sf {
   class RenderWindow;
 }
 
+class Object;
 class AnimObject;
 class EventHandler;
+
+class AnimEngine;
+class EventEngine;
+class PaintEngine;
 
 #endif // TYPEDEFS_H
