@@ -4,7 +4,7 @@ project(SfmlLinux LANGUAGES CXX)
 
 set(CORE_LIB_NAME Sfml2dEngine)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(SOURCES
@@ -19,6 +19,7 @@ set(SOURCES
   src/Object.cpp
   src/Container.cpp
   src/Resources/Resource.cpp
+  src/Resources/ResourceManager.cpp
 )
 set(HEADERS
   include/Entity.h
@@ -34,6 +35,7 @@ set(HEADERS
   include/Typedefs.h
   include/Container.h
   include/Resources/Resource.h
+  include/Resources/ResourceManager.h
 )
 
 add_library(${CORE_LIB_NAME} SHARED

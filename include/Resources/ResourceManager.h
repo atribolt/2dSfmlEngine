@@ -4,7 +4,7 @@
 #include <string>
 #include <variant>
 
-#include "Resources/Resource.h"
+#include "Resource.h"
 
 class ResourceManager
 {

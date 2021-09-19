@@ -25,6 +25,7 @@ public:
   >;
   
 public:
+  Resource();
   Resource(std::string_view name,
            Data const& data);
   

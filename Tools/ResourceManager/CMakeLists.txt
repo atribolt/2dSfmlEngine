@@ -6,11 +6,9 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(HEADERS
-  ResourceManager.h
 )
 set(SOURCES
   main.cpp
-  ResourceManager.cpp
 )
 
 add_executable(${TOOL_NAME}
